@@ -25,9 +25,9 @@ def main():
 
     while True:
         print("")
-        user_input = input("\033[94mDu:\033[0m ")
+        user_input = input("\033[94mYou:\033[0m ")
         if user_input.lower() == 'exit':
-            print("Adjö!")
+            print("Good bye!")
             break
         response = chat_with_gpt(user_input)
         print("")
